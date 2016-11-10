@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_advance_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@mipmap/back_arrow"
+            android:drawablePadding="10dp"
+            android:padding="15dp"
+            android:textSize="15sp"
+            />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+    >
+    </android.support.v4.view.ViewPager>
+
+
+
+<!--    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_gravity="bottom"
+        android:background="#000000"
+        android:fillViewport="false"
+        android:visibility="visible">
+        <LinearLayout
+            android:id="@+id/thumbnails"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"/>
+    </HorizontalScrollView>-->
+    </LinearLayout>
+</FrameLayout>

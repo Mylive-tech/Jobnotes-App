@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+ <!--   <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imageView_profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/avtar"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="4dp"
+        app:civ_shadow="false"
+        app:civ_shadow_color="#2972cd"
+        app:civ_shadow_radius="10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="Admistration"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />-->
+
+  <!--  <LinearLayout
+        android:id="@+id/sidebar_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+
+   >
+
+        <ListView
+            android:id="@+id/sidebar_list"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:divider="#0c458c"
+            android:dividerHeight="1dp"
+            android:scrollingCache="false">
+
+        </ListView>
+
+
+    </LinearLayout>
+-->
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0c458c">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0c458c"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lv_dashboard_location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#0c458c"
+            android:dividerHeight="1dp"
+            android:clickable="true"
+            android:scrollingCache="false" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="20dp"
+            android:paddingLeft="40dp"
+            android:paddingTop="20dp"
+            android:text="@string/priority_listing"
+            android:textColor="#e3ebf6"
+            android:textSize="14sp" />
+
+        <ListView
+            android:id="@+id/lv_priorty_listing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#0c458c"
+            android:clickable="true"
+            android:dividerHeight="1dp"
+            android:scrollingCache="false" />
+
+
+    </LinearLayout>
+</ScrollView>
